@@ -18,7 +18,7 @@ exports.parallelogramArea =(b,h)=>(b*h);
 exports.parallelogramPerimeter=(b,h)=>(2(b+h)); 
 
 exports.trapezoidArea =(b1,b2,h)=>(.5*(b1+b2)*h);
-exports.trapezoidPerimeter=(h,b1,b2,h)=>(2*h+b1+b2);
+exports.trapezoidPerimeter=(h,b1,b2)=>(2*h+b1+b2);
 
 exports.sphereArea =(r)=>(4*Math.PI*r*r);
 exports.sphereVolume=(r)=>((4/3)*Math.PI*r*r*r);
