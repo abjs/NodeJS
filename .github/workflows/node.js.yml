@@ -1,11 +1,10 @@
 name: Github Action
 
 on:
-  pull_request:
   push:
-    branches: 
-      - master
-      - develop
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   test:
