@@ -1,4 +1,4 @@
-let triangleArea = require('1_nodeModules/mathOpration');
+let triangleArea = require('src/1_nodeModules/mathOpration');
 
 
 console.log("God is love");
