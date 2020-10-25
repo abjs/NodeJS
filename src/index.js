@@ -1,3 +1,4 @@
+/* Simple object And Funtions
 let rectangle ={
     perimeter:(x,y) => (2*(x+y)),
     area:(x,y) =>(x*y)
@@ -13,3 +14,8 @@ let solvRectangle = (l,b)=>{
     }
 }
 solvRectangle(0,30)
+
+*/
+/* Call Backs */
+
+
